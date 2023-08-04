@@ -1,0 +1,34 @@
+body{
+    display:flex;
+}
+.first-part, .footer{
+    background-color: #1F2937;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.main-content{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.hero, .head-bar, .footer, .first-paragraph{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+
+  .first-part{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
